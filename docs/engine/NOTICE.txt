@@ -1,0 +1,15 @@
+Framecut uses the single-threaded UMD binary distribution of @ffmpeg/core 0.12.10.
+The package is licensed under GPL-2.0-or-later. See COPYING.GPLv2.
+The JavaScript loader and WebAssembly executable are unmodified. For static hosting,
+the executable is split into four binary files and reassembled before instantiation.
+
+Upstream package:
+https://www.npmjs.com/package/@ffmpeg/core/v/0.12.10
+Build scripts and component sources:
+https://github.com/ffmpegwasm/ffmpeg.wasm
+https://github.com/ffmpegwasm/FFmpeg
+https://ffmpeg.org/legal.html
+
+React and React DOM are distributed under the MIT license, included in react-license.txt.
+The built-in demonstration photograph uses the following Unsplash image:
+https://images.unsplash.com/photo-1470770841072-f978cf4d019e

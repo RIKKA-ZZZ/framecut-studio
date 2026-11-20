@@ -1,0 +1,14 @@
+{
+  "name": "framecut-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/studio.tsx --bundle --minify --target=es2020 --legal-comments=eof --outfile=docs/studio.js",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": { "react": "18.3.1", "react-dom": "18.3.1" },
+  "devDependencies": {
+    "@types/react": "18.3.18", "@types/react-dom": "18.3.5",
+    "esbuild": "0.25.12", "typescript": "5.8.3", "playwright-core": "1.55.0"
+  }
+}
